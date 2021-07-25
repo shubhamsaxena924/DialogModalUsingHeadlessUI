@@ -14,7 +14,6 @@ interface Props {
 
 const ConfirmationBox: React.FC<Props> = (props) => {
   return (
-      <>
     <Transition.Root show={props.open} as={Fragment}>
         <Dialog open={props.open} onClose={props.onClose}>
         <Transition.Child 
@@ -55,8 +54,7 @@ const ConfirmationBox: React.FC<Props> = (props) => {
             
         </Transition.Child>
         </Dialog>
-    </Transition.Root> 
-    </>   
+    </Transition.Root>  
   );
 };
 

@@ -1,7 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
 import ConfirmationBox from './ConfirmationBox';
-import MyModal from './Example';
 
 function App() {
 
@@ -14,7 +13,6 @@ function App() {
       onClick={() => setIsDialogOpen(true)}
       >Open Dialog</button>
     </div>
-    {/* <MyModal/> */}
     <ConfirmationBox title="Are you sure?" desc="Do you really want to delete these records? This process cannot be undone." open={isDialogOpen} onClose={() => setIsDialogOpen(false)}/>
     </>
   );
