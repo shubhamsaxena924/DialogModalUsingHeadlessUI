@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/DialogModalUsingHeadlessUI/static/css/main.ff9ac528.chunk.css",
+    "main.js": "/DialogModalUsingHeadlessUI/static/js/main.aff387df.chunk.js",
+    "main.js.map": "/DialogModalUsingHeadlessUI/static/js/main.aff387df.chunk.js.map",
+    "runtime-main.js": "/DialogModalUsingHeadlessUI/static/js/runtime-main.c0db1c45.js",
+    "runtime-main.js.map": "/DialogModalUsingHeadlessUI/static/js/runtime-main.c0db1c45.js.map",
+    "static/js/2.0b279c38.chunk.js": "/DialogModalUsingHeadlessUI/static/js/2.0b279c38.chunk.js",
+    "static/js/2.0b279c38.chunk.js.map": "/DialogModalUsingHeadlessUI/static/js/2.0b279c38.chunk.js.map",
+    "static/js/3.0c1c36be.chunk.js": "/DialogModalUsingHeadlessUI/static/js/3.0c1c36be.chunk.js",
+    "static/js/3.0c1c36be.chunk.js.map": "/DialogModalUsingHeadlessUI/static/js/3.0c1c36be.chunk.js.map",
+    "index.html": "/DialogModalUsingHeadlessUI/index.html",
+    "static/css/main.ff9ac528.chunk.css.map": "/DialogModalUsingHeadlessUI/static/css/main.ff9ac528.chunk.css.map",
+    "static/js/2.0b279c38.chunk.js.LICENSE.txt": "/DialogModalUsingHeadlessUI/static/js/2.0b279c38.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c0db1c45.js",
+    "static/js/2.0b279c38.chunk.js",
+    "static/css/main.ff9ac528.chunk.css",
+    "static/js/main.aff387df.chunk.js"
+  ]
+}
