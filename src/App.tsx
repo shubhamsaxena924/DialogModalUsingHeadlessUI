@@ -1,25 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import ConfirmationBox from './ConfirmationBox';
+import MyModal from './Example';
 
 function App() {
+
+  const [isDialogOpen, setIsDialogOpen] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div className="flex items-center justify-center w-full h-screen m-auto bg-blue-600 bg-opacity-60">
+      <button className="px-4 py-2 font-medium text-white duration-300 bg-black rounded-lg bg-opacity-20 hover:bg-opacity-30"
+      onClick={() => setIsDialogOpen(true)}
+      >Open Dialog</button>
     </div>
+    {/* <MyModal/> */}
+    <ConfirmationBox title="Are you sure?" desc="Do you really want to delete these records? This process cannot be undone." open={isDialogOpen} onClose={() => setIsDialogOpen(false)}/>
+    </>
   );
 }
 
